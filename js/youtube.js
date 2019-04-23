@@ -33,3 +33,18 @@ if (age == 5) { // variables assigned inside {} other than function are block le
 {
     // this is a block
 }
+
+// functions and arrays are objects
+// string, number, boolean, null, undefined and symbol are all immutable (can only be one type) primitives
+
+// object example, always key value pairs
+let person = {
+    name: "Caleb", // name: is a property
+    age: 93,
+    favFood: "Pizza...",
+    fun: function() {
+        console.log("Yay!");
+    }
+}
+
+person.fun();
